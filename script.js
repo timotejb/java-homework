@@ -50,7 +50,14 @@ console.log(dogYears(2));
 //  if you have enough
 //note: hardcore your account money in the program
 // bonus make it work twith prompt ()!
-function atm (){
-    
+function atm (name, money){
+    let withdraw = prompt("Enter amount you would like to withdraw", "number");
+    if( withdraw > money)
+    console.log("Not enough money")
+    else{
+        money-=withdraw;
+        console.log(`You withdrew ${withdraw} $, you have ${money} $ left in your bank account.`)
+    }
 }
 
+console.log(atm("tiomtej",10000));
