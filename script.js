@@ -60,4 +60,4 @@ function atm (name, money){
     }
 }
 
-console.log(atm("tiomtej",10000));
+console.log(atm("Timotej",10000));
