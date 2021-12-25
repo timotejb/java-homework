@@ -20,15 +20,15 @@ function homeworkPart1(parameter) {
     else
         return 0;
 }
-console.log(homeworkPart1(10));
+homeworkPart1(10);
 
-console.log(homeworkPart1("Timotej"));
+homeworkPart1("Timotej");
 
-console.log(homeworkPart1(true));
+homeworkPart1(true);
 
-console.log(homeworkPart1(undefined));
+homeworkPart1(undefined);
 
-console.log(homeworkPart1(Object));
+homeworkPart1(Object);
 // Homework part 2
 // write a java function that will return:
 // *calculates your dog's age based on the conversion rate of
@@ -60,4 +60,4 @@ function atm (name, money){
     }
 }
 
-console.log(atm("tiomtej",10000));
+console.log(atm("Timotej",10000));
